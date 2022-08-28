@@ -62,6 +62,15 @@ const ImportantLinks = () => {
             Instagram
           </a>
         </div>
+        <div>
+          <a
+            href="https://shopdb.playtheatria.com/home"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Shop DB
+          </a>
+        </div>
       </StyledLinkDiv>
     </>
   );

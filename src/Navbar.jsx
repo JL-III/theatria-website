@@ -12,12 +12,12 @@ const Navbar = () => {
   return (
     <StyledNavbar>
       <div>
-        <a href="./" rel="noopener noreferrer">
+        <a href="/" rel="noopener noreferrer">
           Home
         </a>
       </div>
       <div>
-        <a href="./voting">Voting</a>
+        <a href="/voting">Voting</a>
       </div>
     </StyledNavbar>
   );
