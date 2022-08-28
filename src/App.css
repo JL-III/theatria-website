@@ -43,6 +43,7 @@ html {
   background-image: url("../src/resources/theatriabackground.png");
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
 }
 
 a {
