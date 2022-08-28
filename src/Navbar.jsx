@@ -17,7 +17,7 @@ const Navbar = () => {
         </a>
       </div>
       <div>
-        <a href="/voting">Voting</a>
+        <a href="/#/voting">Voting</a>
       </div>
     </StyledNavbar>
   );
