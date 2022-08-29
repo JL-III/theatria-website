@@ -3,7 +3,7 @@ import styled from "styled-components";
 const StyledDiv = styled.div`
   position: inherit;
   margin: auto;
-  width: 80vw;
+  width: 50vw;
   height: 50vh;
   border-radius: 10px;
   border: 2px solid #d50c24;

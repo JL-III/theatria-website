@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const StyledLinkDiv = styled.div`
-  width: 80vw;
+  width: fit-content;
   margin: auto;
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(39, 39, 39, 0.5));
   color: white;
@@ -18,7 +18,7 @@ const ImportantLinks = () => {
   return (
     <>
       <StyledLinkDiv>
-        <div>
+        <div style={{ padding: "1%" }}>
           <a
             href="https://docs.playtheatria.com/"
             target="_blank"
@@ -27,7 +27,7 @@ const ImportantLinks = () => {
             Wiki
           </a>
         </div>
-        <div>
+        <div style={{ padding: "1%" }}>
           <a
             href="https://discord.gg/xegrV85Au4"
             target="_blank"
@@ -36,7 +36,7 @@ const ImportantLinks = () => {
             Discord
           </a>
         </div>
-        <div>
+        <div style={{ padding: "1%" }}>
           <a
             href="https://store.playtheatria.com/"
             target="_blank"
@@ -45,7 +45,7 @@ const ImportantLinks = () => {
             Feature Shop
           </a>
         </div>
-        <div>
+        <div style={{ padding: "1%" }}>
           <a
             href="https://map.playtheatria.com/"
             target="_blank"
@@ -54,7 +54,7 @@ const ImportantLinks = () => {
             Dynmap
           </a>
         </div>
-        <div>
+        <div style={{ padding: "1%" }}>
           <a
             href="https://www.instagram.com/theatriaofficial/"
             target="_blank"
@@ -63,7 +63,7 @@ const ImportantLinks = () => {
             Instagram
           </a>
         </div>
-        <div>
+        <div style={{ padding: "1%" }}>
           <a
             href="https://shopdb.playtheatria.com/home"
             target="_blank"
