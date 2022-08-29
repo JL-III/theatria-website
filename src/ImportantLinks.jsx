@@ -9,7 +9,7 @@ const StyledLinkDiv = styled.div`
   padding-top: 10px;
   border-radius: 10px;
   border: 2px solid #d50c24;
-  font-size: 1vw;
+  font-size: 2vh;
   display: flex;
   justify-content: space-evenly;
 `;
