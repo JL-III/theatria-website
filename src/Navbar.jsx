@@ -12,12 +12,12 @@ const StyledNavbar = styled.div`
 const Navbar = () => {
   return (
     <StyledNavbar>
-      <div>
+      <div style={{ padding: "10%" }}>
         <a href="/" rel="noopener noreferrer">
           Home
         </a>
       </div>
-      <div>
+      <div style={{ padding: "10%" }}>
         <a href="/#/voting">Voting</a>
       </div>
     </StyledNavbar>
