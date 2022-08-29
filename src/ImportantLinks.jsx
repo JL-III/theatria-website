@@ -1,15 +1,17 @@
 import styled from "styled-components";
 
 const StyledLinkDiv = styled.div`
-  width: 20%;
+  width: 80vw;
   margin: auto;
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(39, 39, 39, 0.5));
   color: white;
-  padding: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
   border-radius: 10px;
   border: 2px solid #d50c24;
+  font-size: 1vw;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 `;
 
 const ImportantLinks = () => {
@@ -34,7 +36,6 @@ const ImportantLinks = () => {
             Discord
           </a>
         </div>
-
         <div>
           <a
             href="https://store.playtheatria.com/"
