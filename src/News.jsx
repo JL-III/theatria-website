@@ -3,7 +3,7 @@ import styled from "styled-components";
 const StyledDiv = styled.div`
   position: inherit;
   margin: auto;
-  width: 50vw;
+  width: 70vw;
   height: fit-content;
   border-radius: 10px;
   border: 2px solid #d50c24;
@@ -24,8 +24,7 @@ const News = () => {
         Theatria was created for two main reasons:
       </div>
       <div style={{ width: "75%", margin: "auto", fontSize: "1.5vh" }}>
-        Create a stable server that people can safely build on for years to
-        come.
+        Create a stable server where people can build safely for years to come.
       </div>
       <div style={{ width: "75%", margin: "auto", fontSize: "1.5vh" }}>
         Provide an economy that isn't tainted with p2w aspects.
@@ -44,16 +43,26 @@ const News = () => {
         style={{
           width: "75%",
           margin: "auto",
+          fontSize: "3vh",
+          padding: "2vh",
+        }}
+      >
+        Is Theatria right for you?
+      </div>
+      <div
+        style={{
+          width: "75%",
+          margin: "auto",
           fontSize: "1.5vh",
           padding: "2vh",
         }}
       >
-        Is Theatria for you? Theatria is for anyone who wants a stable place to
-        build with reliable server performance and uptime. It is for anyone who
-        doesn't want to be subjected to money grabbing tactics found on many
-        Minecraft servers. Theatria is a place where you can participate in an
-        economy without being put at a disadvantage with wallet warriors. If
-        these things sound good to you, then you are in the right place!
+        Theatria is for anyone who wants a stable place to build with reliable
+        server performance and uptime. It is for anyone who doesn't want to be
+        subjected to money grabbing tactics found on many Minecraft servers.
+        Theatria is a place where you can participate in an economy without
+        being put at a disadvantage with wallet warriors. If these things sound
+        good to you, then you are in the right place!
       </div>
     </StyledDiv>
   );
