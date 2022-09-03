@@ -3,7 +3,7 @@ import News from "../News";
 const Home = () => {
   return (
     <>
-      <h1>Home Page</h1>
+      <h1 style={{ fontSize: "5vh" }}>Theatria</h1>
       <div>
         <News></News>
       </div>
