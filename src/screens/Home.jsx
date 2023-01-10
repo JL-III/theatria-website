@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
 
-      <span style={{ fontSize: "3.5vh", marginTop:"1vh", marginRight:"1vw" }}>mc.playtheatria.com</span><button onClick={() =>  navigator.clipboard.writeText('mc.playtheatria.com')}>
+      <span style={{ fontSize: "3.5vh", marginTop:"1vh", marginRight:"1vw", color:"#FFB800" }}>mc.playtheatria.com</span><button onClick={() =>  navigator.clipboard.writeText('mc.playtheatria.com')}>
         Copy to Clipboard
     </button>
         <div>
