@@ -2,7 +2,7 @@ import React from 'react';
 import {
     Nav,
     NavLink,
-    Bars,
+    // Bars,
     NavMenu,
     // NavBtn,
     // NavBtnLink,
@@ -12,7 +12,7 @@ const Navbar2 = () => {
     return (
         <>
             <Nav>
-                <Bars />
+                {/*<Bars />*/}
 
                 <NavMenu>
                     <NavLink to='/' >
@@ -50,5 +50,4 @@ const Navbar2 = () => {
         </>
     );
 };
-
 export default Navbar2;
