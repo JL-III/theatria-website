@@ -40,6 +40,12 @@ export const NavLink = styled(Link)`
 //   }
 // `;
 
+export const NavAnchor = styled.a`
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`
+
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;

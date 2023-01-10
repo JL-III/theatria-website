@@ -2,7 +2,7 @@ import logo from "./resources/Theatria_2.png";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Home from "./screens/Home";
-import Wiki from "./screens/Wiki";
+// import Wiki from "./screens/Wiki";
 import Voting from "./screens/Voting";
 import Navbar2 from "./Navbar2";
 
@@ -25,7 +25,7 @@ function App() {
               <Navbar2></Navbar2>
           <Routes>
             <Route path="/" element={<Home></Home>}></Route>
-            <Route path="/wiki" element={<Wiki></Wiki>}></Route>
+            {/*<Route path="/wiki" element={<Wiki></Wiki>}></Route>*/}
             <Route path="/voting" element={<Voting />}></Route>
           </Routes>
         </div>
