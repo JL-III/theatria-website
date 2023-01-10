@@ -8,8 +8,10 @@ import {faDiscord} from "@fortawesome/free-brands-svg-icons";
 const Home = () => {
   return (
     <>
-      <h1 style={{ fontSize: "5vh" }}>Theatria</h1>
-      <h2 style={{ fontSize: "3.5vh" }}>mc.playtheatria.com</h2>
+
+      <span style={{ fontSize: "3.5vh", marginTop:"1vh", marginRight:"1vw" }}>mc.playtheatria.com</span><button onClick={() =>  navigator.clipboard.writeText('mc.playtheatria.com')}>
+        Copy to Clipboard
+    </button>
         <div>
         </div>
       <div>

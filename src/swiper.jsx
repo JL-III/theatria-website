@@ -22,7 +22,7 @@ const SwiperThing = () => {
             autoplay={{
                 delay: 2500,
                 disableOnInteraction: false,
-                pauseOnMouseEnter: true
+                pauseOnMouseEnter: false
             }}
         >
             <SwiperSlide><img className="image-slide" src={slide1} alt="Logo" style={{width:"50vw"}}/></SwiperSlide>

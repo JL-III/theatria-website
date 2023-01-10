@@ -4,8 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./screens/Home";
 import Wiki from "./screens/Wiki";
 import Voting from "./screens/Voting";
-import ImportantLinks from "./ImportantLinks";
-import Navbar from "./Navbar";
+import Navbar2 from "./Navbar2";
 
 function App() {
   return (
@@ -23,8 +22,7 @@ function App() {
               padding: "2%",
             }}
           ></img>
-          <Navbar></Navbar>
-          <ImportantLinks style={{ position: "absolute" }}></ImportantLinks>
+              <Navbar2></Navbar2>
           <Routes>
             <Route path="/" element={<Home></Home>}></Route>
             <Route path="/wiki" element={<Wiki></Wiki>}></Route>
