@@ -25,11 +25,11 @@ export default () => {
                 pauseOnMouseEnter: true
             }}
         >
-            <SwiperSlide><img className="image-slide" src={slide1} alt="Logo" style={{width:"80vw"}}/></SwiperSlide>
-            <SwiperSlide><img className="image-slide"  src={slide2} alt="Logo" style={{width:"80vw"}}/></SwiperSlide>
-            <SwiperSlide><img className="image-slide"  src={slide3} alt="Logo" style={{width:"80vw"}}/></SwiperSlide>
-            <SwiperSlide><img className="image-slide"  src={slide4} alt="Logo" style={{width:"80vw"}}/></SwiperSlide>
-            <SwiperSlide><img className="image-slide"  src={slide5} alt="Logo" style={{width:"80vw"}}/></SwiperSlide>
+            <SwiperSlide><img className="image-slide" src={slide1} alt="Logo" style={{width:"50vw"}}/></SwiperSlide>
+            <SwiperSlide><img className="image-slide"  src={slide2} alt="Logo" style={{width:"50vw"}}/></SwiperSlide>
+            <SwiperSlide><img className="image-slide"  src={slide3} alt="Logo" style={{width:"50vw"}}/></SwiperSlide>
+            <SwiperSlide><img className="image-slide"  src={slide4} alt="Logo" style={{width:"50vw"}}/></SwiperSlide>
+            <SwiperSlide><img className="image-slide"  src={slide5} alt="Logo" style={{width:"50vw"}}/></SwiperSlide>
         </Swiper>
     );
 };
