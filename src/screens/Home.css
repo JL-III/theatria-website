@@ -2,6 +2,16 @@
     margin: 5vh 5vh 5vh 5vh;
 }
 
+.blink_me {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
 /*@media screen and (max-width:600px)  {*/
 /*    #swiper-scroll {*/
 /*        width: 100vw;*/

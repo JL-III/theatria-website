@@ -22,15 +22,15 @@ const Navbar2 = () => {
                     <NavLink to='/voting' >
                         Voting
                     </NavLink>
-                    <a href={"https://docs.playtheatria.com/"} target="_blank" rel="noopener noreferrer" style={{color:'#FFFFFF', margin:"1rem", textDecoration:"none"}}>
+                    <NavAnchor href={"https://docs.playtheatria.com/"} target="_blank" rel="noopener noreferrer" style={{color:'#FFFFFF', margin:"1vh", textDecoration:"none"}}>
                         Wiki
-                    </a>
-                    <a href={"https://discord.com/invite/xegrV85Au4"} target="_blank" rel="noopener noreferrer" style={{color:'#FFFFFF', margin:"1rem", textDecoration:"none"}}>
+                    </NavAnchor>
+                    <NavAnchor href={"https://discord.com/invite/xegrV85Au4"} target="_blank" rel="noopener noreferrer" style={{color:'#FFFFFF', margin:"1rem", textDecoration:"none"}}>
                         Discord
-                    </a>
-                    <a href={"https://map.playtheatria.com/"} target="_blank" rel="noopener noreferrer" style={{color:'#FFFFFF', margin:"1rem", textDecoration:"none"}}>
+                    </NavAnchor>
+                    <NavAnchor href={"https://map.playtheatria.com/"} target="_blank" rel="noopener noreferrer" style={{color:'#FFFFFF', margin:"1rem", textDecoration:"none"}}>
                         Dynmap
-                    </a>
+                    </NavAnchor>
                     <NavAnchor href={"https://store.playtheatria.com/"} target="_blank" rel="noopener noreferrer" style={{color:'#FFFFFF', margin:"1rem", textDecoration:"none"}}>
                         Features
                     </NavAnchor>

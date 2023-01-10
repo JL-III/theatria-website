@@ -24,6 +24,9 @@ export const NavLink = styled(Link)`
   &.active {
     color: #FFB800;
   }
+  @media screen and (max-width: 768px) {
+    font-size: calc((100vw - 1000px) / 3);
+  }
 `;
 
 // export const Bars = styled(FaBars)`
@@ -42,7 +45,7 @@ export const NavLink = styled(Link)`
 
 export const NavAnchor = styled.a`
   @media screen and (max-width: 768px) {
-    display: none;
+    font-size: 50%;
   }
 `
 
@@ -53,8 +56,8 @@ export const NavMenu = styled.div`
   /* Second Nav */
   /* margin-right: 24px; */
   /* Third Nav */
-  /* width: 100vw;
-  white-space: nowrap; */
+  // width: 100vw;
+  // white-space: nowrap;
   // @media screen and (max-width: 768px) {
   //   display: none;
   // }
