@@ -16,18 +16,9 @@ const StyledDiv = styled.div`
 const News = () => {
   return (
     <StyledDiv>
-      <h1 style={{ fontSize: "4vh" }}>About us</h1>
-      <h2 style={{ fontSize: "2.5vh" }}>
-        We are an economy survival server with a focus on fair gameplay.
-      </h2>
+      <h1 style={{ fontSize: "4vh" }}>Theatria - an economy survival server.</h1>
       <div style={{ width: "75%", margin: "auto", fontSize: "2vh" }}>
-        Theatria was created for two main reasons:
-      </div>
-      <div style={{ width: "75%", margin: "auto", fontSize: "1.5vh" }}>
-        Create a stable server where people can build safely for years to come.
-      </div>
-      <div style={{ width: "75%", margin: "auto", fontSize: "1.5vh" }}>
-        Provide an economy that isn't tainted with p2w aspects.
+          Are you looking for a Minecraft server that offers a small, friendly community and a relaxed atmosphere, but still has plenty of fun activities? Look no further! Our server is the perfect place for you! With a variety of minigames, custom maps, and events, you'll never be bored. Plus, our friendly staff and players make sure everyone feels welcome and respected. So come join us and experience the best of both worlds - a peaceful, cozy environment and plenty of fun!
       </div>
       <div
         style={{
@@ -38,31 +29,6 @@ const News = () => {
         }}
       >
         -------------------------------------------
-      </div>
-      <div
-        style={{
-          width: "75%",
-          margin: "auto",
-          fontSize: "3vh",
-          padding: "2vh",
-        }}
-      >
-        Is Theatria right for you?
-      </div>
-      <div
-        style={{
-          width: "75%",
-          margin: "auto",
-          fontSize: "1.5vh",
-          padding: "2vh",
-        }}
-      >
-        Theatria is for anyone who wants a stable place to build with reliable
-        server performance and uptime. It is for anyone who doesn't want to be
-        subjected to money grabbing tactics found on many Minecraft servers.
-        Theatria is a place where you can participate in an economy without
-        being put at a disadvantage with wallet warriors. If these things sound
-        good to you, then you are in the right place!
       </div>
     </StyledDiv>
   );
