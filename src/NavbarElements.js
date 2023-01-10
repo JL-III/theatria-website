@@ -49,9 +49,9 @@ export const NavMenu = styled.div`
   /* Third Nav */
   /* width: 100vw;
   white-space: nowrap; */
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
+  // @media screen and (max-width: 768px) {
+  //   display: none;
+  // }
 `;
 
 export const NavBtn = styled.nav`
