@@ -22,22 +22,22 @@ const Navbar2 = () => {
                     <NavLink to='/voting' >
                         Voting
                     </NavLink>
-                    <NavAnchor href={"https://docs.playtheatria.com/"} target="_blank" rel="noopener noreferrer" style={{color:'#FFFFFF', margin:"1vh", textDecoration:"none"}}>
+                    <NavAnchor href={"https://docs.playtheatria.com/"} target="_blank" rel="noopener noreferrer" >
                         Wiki
                     </NavAnchor>
-                    <NavAnchor href={"https://discord.com/invite/xegrV85Au4"} target="_blank" rel="noopener noreferrer" style={{color:'#FFFFFF', margin:"1rem", textDecoration:"none"}}>
+                    <NavAnchor href={"https://discord.com/invite/xegrV85Au4"} target="_blank" rel="noopener noreferrer" >
                         Discord
                     </NavAnchor>
-                    <NavAnchor href={"https://map.playtheatria.com/"} target="_blank" rel="noopener noreferrer" style={{color:'#FFFFFF', margin:"1rem", textDecoration:"none"}}>
+                    <NavAnchor href={"https://map.playtheatria.com/"} target="_blank" rel="noopener noreferrer">
                         Dynmap
                     </NavAnchor>
-                    <NavAnchor href={"https://store.playtheatria.com/"} target="_blank" rel="noopener noreferrer" style={{color:'#FFFFFF', margin:"1rem", textDecoration:"none"}}>
+                    <NavAnchor href={"https://store.playtheatria.com/"} target="_blank" rel="noopener noreferrer">
                         Features
                     </NavAnchor>
-                    <NavAnchor href={"https://www.instagram.com/theatriaofficial/"} target="_blank" rel="noopener noreferrer" style={{color:'#FFFFFF', margin:"1rem", textDecoration:"none"}}>
+                    <NavAnchor href={"https://www.instagram.com/theatriaofficial/"} target="_blank" rel="noopener noreferrer">
                         Instagram
                     </NavAnchor>
-                    <NavAnchor href={"https://shopdb.playtheatria.com/home"} target="_blank" rel="noopener noreferrer" style={{color:'#FFFFFF', margin:"1rem", textDecoration:"none"}}>
+                    <NavAnchor href={"https://shopdb.playtheatria.com/home"} target="_blank" rel="noopener noreferrer">
                         ShopDB
                     </NavAnchor>
 
