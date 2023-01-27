@@ -1,5 +1,5 @@
 import News from "../News";
-import Swiper from "../swiper";
+// import Swiper from "../swiper";
 import './Home.css';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faDiscord} from "@fortawesome/free-brands-svg-icons";
